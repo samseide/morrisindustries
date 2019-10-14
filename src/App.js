@@ -44,7 +44,7 @@ function App() {
               theme: 'dark',
               conversation: 'none',
               chrome: 'noheader, nofooter, noborders, transparent, noscrollbar',
-              tweetLimit: '3',
+              tweetLimit: '1',
               height: '600'
             }}
             onLoad={() => console.log('Timeline is loaded!')}
