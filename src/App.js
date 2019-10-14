@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { Timeline } from 'react-twitter-widgets';
 
@@ -9,7 +8,7 @@ function App() {
       <header className="App-Body">
         <div class="Ride-Rules">
           <h2>
-            Morris Industries Ghost Capture
+            Morris Industries<br></br>Ghost Capture
           </h2>
           <p>
             Morris Industries Ghost Capture is a slow motion thrill ride that includes lasers, smoke machines and a ride photo being taken and posted to twitter.
@@ -40,18 +39,19 @@ function App() {
             }}
             options={{
               username: 'MorrisHalloween',
-              width: '600',
+              width: '1000',
               theme: 'dark',
               conversation: 'none',
               chrome: 'noheader, nofooter, noborders, transparent, noscrollbar',
-              tweetLimit: '1',
-              height: '600'
+              height: '700'
             }}
             onLoad={() => console.log('Timeline is loaded!')}
           />
-          <h3>Find your photo online at twitter.com/MorrisHalloween</h3>
         </div>
       </header>
+      <footer>
+        <h3>Find your ride photo online at twitter.com/MorrisHalloween</h3>
+      </footer>
     </div>
   );
 }
