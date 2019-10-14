@@ -1,12 +1,13 @@
 .App {
   text-align: center;
+  background-color: #292F33;
 }
 
 .App-logo {
   height: 40vmin;
 }
 
-.App-header {
+.App-Body {
   background-color: #292F33;
   min-height: 100vh;
   display: flex;
