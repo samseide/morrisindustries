@@ -11,8 +11,7 @@
   background-color: #292F33;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -20,4 +19,8 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.Ride-Rules {
+  width: 40%;
 }
