@@ -40,12 +40,24 @@ h2 {
 }
 
 .Warning-Heading {
-  font-family: Benguiat;
   font-variant:small-caps;
-  font-weight:bold;
-  color: red;
-  font-size: 1.53em;
-  font-weight: 700;
+  color: black;
+  font-size: calc(30px + 2vmin);
+  font-weight: 900;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.Warning-Heading section {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  margin: auto;
+}
+
+.Warning-Heading p {
+  margin: auto; /* Important */
+  text-align: center;
 }
 
 footer {
