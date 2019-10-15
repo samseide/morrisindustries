@@ -1,7 +1,6 @@
 .App {
   text-align: center;
-  background: rgb(22,22,22);
-  background: linear-gradient(0deg, rgba(22,22,22,1) 0%, rgba(64,64,71,1) 50%, rgba(85,85,85,1) 100%);
+  background: black;
   height: 100vh;
 }
 
@@ -33,19 +32,31 @@
 
 h2 {
   font-family: Benguiat;
-}
-
-h3 {
-  font-size: calc(10px + 2vmin);
+  font-size: calc(30px + 2vmin);
+  line-height: 55px;
+  color: #F4A31D;
+  font-variant:small-caps;
+  font-weight:bold;
 }
 
 .Warning-Heading {
+  font-family: Benguiat;
+  font-variant:small-caps;
+  font-weight:bold;
   color: red;
   font-size: 1.53em;
   font-weight: 700;
 }
 
 footer {
-  color: white;
+  color: black;
+  background-color: #F4A31D;
   height: 6vh;
+  padding-top: .75rem;
+}
+
+footer .footer-text {
+  font-size: calc(20px + 2vmin);
+  font-weight: 900;
+  text-transform: uppercase;
 }

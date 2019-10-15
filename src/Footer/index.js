@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer>
-      <h3>Find your ride photo online at twitter.com/MorrisHalloween</h3>
+      <div class="footer-text">Find your ride photo online at twitter.com/MorrisHalloween</div>
     </footer>
   )
 }
