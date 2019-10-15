@@ -15,7 +15,7 @@ const TwitterFeed = () => {
           theme: 'dark',
           conversation: 'none',
           chrome: 'noheader, nofooter, noborders, transparent, noscrollbar',
-          height: '700'
+          height: '675'
         }}
         onLoad={() => console.log('Timeline is loaded!')}
       />
