@@ -10,8 +10,10 @@ const RideRules = () => {
         Morris Industries Ghost Capture is a slow motion thrill ride that includes lasers, smoke machines and a ride photo being taken and posted to twitter.
           </p>
       <div class="Warning-Heading">
-        WARNING!
-          </div>
+        <section>
+          <p>////// WARNING! \\\\\\</p>
+        </section>
+      </div>
       <div class="Warning-Text">
         <p>
           For safety, you should be in good health and free from high blood pressure, heart, back or neck problems, motion sickness or other conditions that could be aggravated by this adventure.
