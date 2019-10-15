@@ -22,18 +22,22 @@
 }
 
 .Ride-Rules {
-  width: 36%;
-  margin: auto;
+  width: 40%;
+  margin: 1rem auto;
 }
 
 .Twitter-Embed {
   margin: auto;
+  transform: rotate(5deg);
+  padding: 1rem;
+  background-color: #504f4f;
+  border-radius: 10px;
 }
 
 h2 {
   font-family: Benguiat;
-  font-size: calc(30px + 2vmin);
-  line-height: 55px;
+  font-size: calc(70px + 2vmin);
+  line-height: 85px;
   color: #F4A31D;
   font-variant:small-caps;
   font-weight:bold;
@@ -42,10 +46,11 @@ h2 {
 .Warning-Heading {
   font-variant:small-caps;
   color: black;
-  font-size: calc(30px + 2vmin);
+  font-size: calc(60px + 2vmin);
   font-weight: 900;
   background-color: red;
   border-radius: 5px;
+  padding-bottom: 2.25rem;
 }
 
 .Warning-Heading section {
