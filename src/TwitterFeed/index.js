@@ -11,11 +11,11 @@ const TwitterFeed = () => {
         }}
         options={{
           username: 'MorrisHalloween',
-          width: '1000',
+          width: '850',
           theme: 'dark',
           conversation: 'none',
           chrome: 'noheader, nofooter, noborders, transparent, noscrollbar',
-          height: '675'
+          height: '600'
         }}
         onLoad={() => console.log('Timeline is loaded!')}
       />
