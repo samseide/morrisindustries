@@ -23,12 +23,12 @@
 
 .Ride-Rules {
   width: 40%;
-  margin: 1rem auto;
+  margin: 2rem auto 0;
 }
 
 .Twitter-Embed {
   margin: auto;
-  transform: rotate(5deg);
+  transform: rotate(4deg);
   padding: 1rem;
   background-color: #504f4f;
   border-radius: 10px;
@@ -36,21 +36,22 @@
 
 h2 {
   font-family: Benguiat;
-  font-size: calc(70px + 2vmin);
+  font-size: calc(60px + 2vmin);
   line-height: 85px;
   color: #F4A31D;
   font-variant:small-caps;
   font-weight:bold;
+  margin: 2rem 0;
 }
 
 .Warning-Heading {
   font-variant:small-caps;
   color: black;
-  font-size: calc(60px + 2vmin);
+  font-size: calc(45px + 2vmin);
   font-weight: 900;
   background-color: red;
   border-radius: 5px;
-  padding-bottom: 2.25rem;
+  padding-bottom: 1rem;
 }
 
 .Warning-Heading section {
